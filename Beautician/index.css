@@ -1,0 +1,726 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overall{
+    background-color: black;
+}
+nav{
+    background-color: black;
+    width:100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+    /* position: fixed; */
+    z-index: 30;
+}
+.anav{
+    display: flex;
+    gap:40px;
+}
+a{  
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-family: Nuosu SIL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+}
+.logo img{
+    width:200px;
+    height:70px;
+}
+.icon i{
+     font-size: 30px;
+     color:white;
+}
+.icon{
+    background-color: transparent;
+    border:none;
+    display: none;
+}
+/* ---------------------------------------------------------------nav---------------------end-------------------------- */
+/* -----------------------------------------------------------------header----------------st---------------------------- */
+header{
+    width:100%;
+    display: flex;
+    position: relative;
+}
+.head1{
+    width:50%;
+     background-image: url("./Rectangle\ 1\ \(1\).png");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 705px;
+    /* position: relative; */
+    /* top:-100px; */
+}
+.head2{
+  width:50%;
+   background-image: url("./Rectangle\ 3.png");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 705px;
+  /* position: relative; */
+  /* top:-100px; */
+}
+.head1 img{
+    position: absolute;
+    width:500px;
+    height:500px;
+    top:30%;
+}
+.head2 img{
+    position: absolute;
+     width:500px;
+    height:500px;
+    top:20%;
+    right:0%;
+}
+.htext{
+    position: absolute;
+    width:100%;
+    top:10%;
+    color: rgba(255, 255, 255, 1);
+    z-index: 3;
+    text-align: center;
+}
+.htext h1{
+        font-family: Crimson Text;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 26px;
+        text-align: center;
+}
+.htext p{
+    font-family: Crimson Text;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    text-align: center;
+    /* padding-left: 115px; */
+    /* padding-right: 80px; */
+     margin-top: 30px;
+}
+.htext h2{
+        font-family: Crimson Text;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 30px;
+}
+.htext button{
+    font-family: Inria Serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    color:white;
+    border-radius: 50px;
+    background: rgba(192, 105, 232, 1);
+    border:none;
+    padding: 7px 20px 7px 20px;
+    margin-top: 50px;
+}
+ /* <!-- --------------------------------------------------------------------header--------------end------------------------------- --> */
+        /* <!-- ------------------------------------------------------------------------article---------------st------------------------------- --> */
+article{
+    width:100%;
+    min-height:500px;
+    background-image: url("./eed2c2ac-320e-4278-9fd4-89b775efbd80\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    background-color: black;
+}
+/* -----------------------ttile----------------------------- */
+.title{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
+.title h1{
+        font-family: 'Dancing Script';
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 110px;
+        color: rgba(197, 153, 124, 0.69);
+        text-align: center;
+        /* position: absolute;
+    top:0px;
+    left:38%; */
+}
+.title h3{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    position: absolute;
+    top:80px;
+}
+/* -------------------------------------title------------------------ */
+.art{
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* position: relative; */
+    padding:120px 200px 150px 150px;
+    gap:20px;
+}
+.art1{
+    width:50%;
+    min-height: 300px;
+    padding: 70px 10px 30px 10px;
+    text-align: center;
+}
+.art1 h1{
+    font-family: Allison;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 37px;
+    color:white;
+    text-align: left;
+}
+.art1 p{
+    font-family: Nuosu SIL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color:white;
+    text-align: left;
+} 
+.art1 button{
+       border:none;
+       background: rgba(192, 105, 232, 1);
+       color:white;
+       padding: 7px 10px 7px 10px;
+       border-radius: 50px;
+}
+.arrt2{
+    width:50%;
+    display: flex;
+    justify-content: start;
+}
+.art2{
+    background-color: white;
+    width:270px;
+    min-height: 320px;
+    border: 2px solid rgba(79, 15, 109, 1);
+    padding: 20px;
+}
+.art2 .arti2{
+     background-image: url("./unsplash_QhR78CbFPoE.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 320px;
+    border: 2px solid rgba(185, 34, 255, 1);
+    position: relative;
+}
+.arti2div{
+    background-color: white;
+    width:200px;
+    height:250px;
+    position: absolute;
+    left:92%;
+    border: 2px solid rgba(185, 34, 255, 1);
+    top:10%;
+    padding: 20px;
+} 
+.innerbox{
+     background-image: url("./unsplash_-djRG1vB1pw.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:205px;
+    border: 2px solid rgba(185, 34, 255, 1);
+}
+/* <!-- <----------------------------------------------------article----end---------------------------------- --> */
+       /* <!-- ---------------------------------------------------------Main-------start------------------------------- --> */
+main{
+    background-color: black;
+    width:100%;
+    padding: 20px 20px 70px 20px;
+}
+.flipdiv{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:25px;
+}
+.f1{
+    width:250px;
+    height:400px;
+    position: relative;
+    transform-style: preserve-3d ;
+    transition: all 1s;
+    transform: perspective(300px);
+    border-radius: 10px;
+}
+.f1in,.f2in{
+    width:250px;
+    height:400px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d ;
+    border-radius: 10px;
+    position: absolute;
+}
+.f1in{
+    
+}
+.f1in img{
+    width:100%;
+    height:100%;
+     border-radius: 10px;
+}
+.f2in{
+    transform: rotateY(180deg);
+    padding: 0px;
+    text-align: center;
+     padding: 30px 20px 30px 20px;
+}
+.f2in img{
+    width:100%;
+}
+.tab{
+    padding: 30px 0px 30px 5px;
+}
+.ww{
+    padding: 0px 70px 0px 0px;
+}
+.f1:hover{
+    transform: rotateY(180deg);
+}
+.bttn{
+    background: rgba(192, 105, 232, 0.2);
+    /* width: 168; */
+    /* height: 39; */
+    opacity: 1;
+    border-radius: 30px;
+    padding: 7px 11px 7px 11px;
+    margin-top: 30px;
+    border:1px solid white;
+    color:white;
+}
+.imgg1{
+    background-image: url("./Indian\ Bridal\ Makeup\ 2025\ 1\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url("./Frame\ 64.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url("./6eea1020-d425-4298-a430-8666791c5e8b\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url("./Frame\ 64\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ---------------------------------------------------main----end------------------------------------------ */
+/* ------------------------------------------------------section-----start------------------------------------------------- */
+section{
+    background-image: url("./2c863462-165b-436a-9e5c-2aeefc38f8d8\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width:100%; */
+    min-height: 620px;
+}
+section p{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.secdiv{
+    width:100%;
+    min-height: 300px;
+    display: flex;
+    gap:40px;
+    overflow-x: auto;
+    margin: 50px auto;
+}
+.secdiv::-webkit-scrollbar{
+    display: none;
+}
+
+.group{
+     display: flex;
+     gap:40px;
+     justify-content: center;
+     align-items: center;
+     animation: scroll 7s infinite linear;
+}
+
+.group div{
+    background-color: white;
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+}
+.group img{
+    width:100%;
+    height: 100%;
+}
+@keyframes scroll {
+    from{
+        translate: 0;
+    }
+    to{
+       translate: -100%;
+    }
+}
+/* -----------------------------------------------------section-----------end0--------------------------- */
+/* --------------------------------------------------------aside-----start--------------------------------- */
+aside{
+    background-color: black;
+    width:100%;
+    min-height: 600px;
+}
+.asidep{
+    font-family: Allison;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+.testidiv{
+    width:100%;
+    min-height: 250px;
+    display: flex;
+    gap:40px;
+    overflow-x: auto;
+    margin: 50px auto;
+    padding: 0px 10px 0px 10px;
+
+}
+.testidiv::-webkit-scrollbar{
+    display: none;
+}
+
+.testiibox{
+     display: flex;
+     gap:40px;
+     justify-content: center;
+     align-items: center;
+     min-height: 300px;
+}
+.testbox{
+    background: rgba(192, 105, 232, 0.25);
+    width:300px;
+    height:200px;
+    border-radius: 40px;
+    border:1px solid white;
+    padding: 15px;
+    color:white;
+    position: relative;
+}
+.text{
+    display: flex;
+    gap:20px;
+}
+.testbox h1{
+    font-family: Gabriola;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+}
+.testbox p{
+    position: absolute;
+    font-family: Nuosu SIL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    top: 50%;
+}
+.img1{
+    position: absolute;
+    top:-25px;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.pos1{
+    position: absolute;
+    left:37%;
+}
+
+ /* <!-- -----------------------------------------------------aside----------end------------------------------------- -->
+ /* <!-- ---------------------------------------------------------footer---------start---------------------------------------- --> */
+
+ footer{
+    background: linear-gradient(to right, rgb(27, 11, 35),rgb(62, 24, 80),rgb(72, 12, 99),rgb(59, 4, 84), rgba(79, 15, 109, 1));
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white;
+    padding: 70px 10px 70px 90px;
+    gap:60px;
+    align-items: center;
+ }
+ .footerdiv{
+    width:205px;
+    min-height: 200px;
+ }
+ .width{
+    width:340px;
+ }
+ footer img{
+    width:150px;
+    height:100px;
+ }
+ footer h3{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ footer i{
+    font-size: 30px;
+    /* margin-top: 10px; */
+    margin-right: 7px;
+ }
+ .icondf{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+ .icondf i{
+    font-size: 15px;
+ }
+ .icondf p{
+    font-family: Nuosu SIL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    padding: 0;
+    margin:0;
+ }
+ .ppp{
+    font-family: Nuosu SIL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+ }
+ /* ---------------------------------------------------footer----------end---------------------------------------- */
+ /* -------------------------------------------------------Responsive-----content------------------------------------ */
+@media only screen and (min-width:900px) and (max-width:1200px){
+    
+   nav{
+       
+  }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:900px){
+    
+   nav{
+      position: relative;
+      /* position: fixed;  */
+  }
+  .anav{
+      width:90%;
+      background-color: rgba(83, 78, 78, 0.6);
+      position: absolute;
+      top:-460%;
+      flex-direction: column;
+      text-align: center;
+      left:5%;
+      padding: 30px;
+      /* top:0%; */
+      border-radius: 20px;
+  }
+  .icon{
+    display: block;
+  }
+
+  .htext h1{
+    font-size: 20px;
+  }
+  .htext p{
+    font-size: 12px;
+  }
+  .htext h2{
+    font-size: 15px;
+    padding: 0px;
+  }
+  .head1,.head2{
+         height:450px;
+  }
+  .head1 img{
+    width: 250px ;
+    height: 250px;
+    top:43%;
+  }
+   .head2 img{
+    width: 250px;
+    height:250px;
+    top:25%;
+  }
+  .art{
+    flex-direction: column;
+     padding: 50px 50px 50px 50px;
+  }
+  .art1{
+    width:100%;
+  }
+  .art1 h1{
+    text-align: center;
+  }
+  .art1 p{
+    text-align: center;
+  }
+  article{
+    padding-top: 30px;
+  }
+  .arrt2{
+    width:100%;
+    padding-left: 37px;
+  }
+  .title h1{
+         font-size: 80px;
+  }
+  .title h3{
+         font-size: 30px;
+         top:60px;
+  }
+  .asidep{
+    font-size: 30px;
+  }
+  footer{
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    
+   nav{
+      position: relative;
+      padding: 10px;
+  }
+  .logo img {
+    width: 130px;
+    height: 65px;}
+.icon i{
+    font-size: 25px;
+    margin-top: 20px;
+}
+  .anav{
+      width:90%;
+      background-color: rgba(83, 78, 78, 0.6);
+      position: absolute;
+      top:-460%;
+      flex-direction: column;
+      text-align: center;
+      left:5%;
+      padding: 30px;
+      /* top:0%; */
+      border-radius: 20px;
+  }
+  .icon{
+    display: block;
+  }
+
+  .htext h1{
+    font-size: 15px;
+  }
+  .htext p{
+    font-size: 8px;
+  }
+  .htext h2{
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .head1,.head2{
+         height:450px;
+  }
+  .head1 img{
+    width: 200px ;
+    height: 200px;
+    top:50%;
+  }
+   .head2 img{
+    width: 200px;
+    height:200px;
+    top:25%;
+  }
+  .htext button{
+    margin-top: 20px;
+  }
+  .art{
+    flex-direction: column;
+     padding:20px;
+     height: 850px;
+     justify-content: start;
+     gap:0px;
+  }
+  .arti2div{
+    top: 60%;
+    left:4%;
+  }
+  .art1{
+    width:100%;
+    padding: 10px;
+  }
+  .art1 h1{
+    text-align: center;
+  }
+  .art1 p{
+    text-align: center;
+  }
+  article{
+    padding-top: 30px;
+  }
+  .arrt2{
+    width:100%;
+    /* padding-left: 37px; */
+  }
+  .title h1{
+         font-size: 50px;
+  }
+  .title h3{
+         font-size: 22px;
+         top:38px;
+  }
+  .asidep{
+    font-size: 20px;
+  }
+  footer{
+    padding: 20px;
+    text-align: center;
+    gap:20px;
+  }
+}
